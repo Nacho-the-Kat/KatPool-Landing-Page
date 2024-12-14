@@ -30,7 +30,7 @@ export default function Pricing() {
                   <span className="text-4xl font-bold leading-7">0.25%</span>
                   <span className="font-medium text-gray-400">‎ ‎ pool fee</span>
                 </div>
-                <div className="text-gray-400 mb-6">Holders of at least 100M $NACHO.</div>
+                <div className="text-gray-400 mb-6">Wallets holding at least 100M $NACHO.</div>
                 <a className="btn-sm text-white bg-gradient-to-t from-customPrimary to-customPrimary hover:to-customSecondary w-full shadow-lg group" href="https://NachoWyborski.xyz" target="_blank" rel="noopener noreferrer">
                   Learn more about $NACHO{' '}
                   <span className="tracking-normal text-customSecondary group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
@@ -126,7 +126,7 @@ export default function Pricing() {
                   <span className="text-4xl font-bold leading-7">0.25%</span>
                   <span className="font-medium text-gray-400">‎ ‎ pool fee</span>
                 </div>
-                <div className="text-gray-400 mb-6">Holders of a qualifying Nacho NFT.</div>
+                <div className="text-gray-400 mb-6">Wallets holding a qualifying Nacho NFT.</div>
                 <a className="btn-sm text-white bg-gradient-to-t from-customPrimary to-customPrimary hover:to-customSecondary w-full shadow-lg group" href="#0" target="_blank" rel="noopener noreferrer">
                   Check out the Collection{' '}
                   <span className="tracking-normal text-customSecondary group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
