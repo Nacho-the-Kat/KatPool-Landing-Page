@@ -38,7 +38,7 @@ export default function Hero() {
               Where Kaspa Miners <em className="font-italic">Thrive</em>
             </h1>
             <p className="text-xl text-gray-400 mb-10" data-aos="zoom-out" data-aos-delay="200">
-            Kat Pool is the first open-source mining pool built for Kaspa, empowering miners with transparency, scalability, and freedom.
+            Kat Pool is an open-source mining pool for Kaspa, empowering miners with transparency, scalability, freedom, and $NACHO.
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
