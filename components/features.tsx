@@ -1,88 +1,57 @@
 import Image from 'next/image'
-import FeaturesImage from '@/public/images/features.svg'
+import Illustration from '@/public/images/features-illustration.svg'
+import FeaturesImage from '@/public/images/features.png'
 
-export default function Features() {
+export default function Features02() {
   return (
-    <section>
+    <section className="relative">
+      {/* Bg gradient */}
+      <div className="absolute top-0 left-0 right-0 bg-gradient-to-b from-gray-800 to-gray-900 opacity-60 h-[10rem] pointer-events-none -z-10" aria-hidden="true" />
+      {/* Bg illustration */}
+      <div className="absolute top-0 left-1/2 -z-10 ml-[390px]" aria-hidden="true">
+        <Image src={Illustration} className="max-w-none" alt="Illustration" />
+      </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Focus on solving bigger problems</h2>
-          </div>
-          <div className="pb-16" data-aos="zoom-out">
-            <Image src={FeaturesImage} alt="Features" />
-          </div>
-          {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
-            {/* 1st item */}
-            <div className="flex flex-col items-center" data-aos="zoom-out">
-              <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-                  <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon1-b">
-                      <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
-                    </radialGradient>
-                    <circle id="icon1-a" cx="28" cy="28" r="28" />
-                  </defs>
-                  <g fill="none" fillRule="evenodd">
-                    <use fill="url(#icon1-b)" xlinkHref="#icon1-a" />
-                    <g stroke="#FDF2F8" strokeLinecap="square" strokeWidth="2">
-                      <path d="M17 28h22" opacity=".64" />
-                      <path d="M20 23v-3h3M33 20h3v3M36 33v3h-3M23 36h-3v-3" />
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+            <h2 className="h2 font-uncut-sans mb-4">Kaspa Mining, Redefined</h2>
+            <div className="max-w-2xl mx-auto">
+              <p className="text-xl text-gray-400">Kat Pool redefines what miners expect from a pool. With cutting-edge technology, fair rewards, and a low-fee model, every share means more.</p>
             </div>
-            {/* 2nd item */}
-            <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
-              <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-                  <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon2-b">
-                      <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
-                    </radialGradient>
-                    <circle id="icon2-a" cx="28" cy="28" r="28" />
-                  </defs>
-                  <g fill="none" fillRule="evenodd">
-                    <use fill="url(#icon2-b)" xlinkHref="#icon2-a" />
-                    <g stroke="#FDF2F8" strokeLinecap="square" strokeWidth="2">
-                      <path d="m22 24-4 4 4 4M34 24l4 4-4 4" />
-                      <path d="m26 36 4-16" opacity=".64" />
-                    </g>
-                  </g>
-                </svg>
+          </div>
+          {/* Section content */}
+          <div className="max-w-xl mx-auto md:max-w-none flex flex-col md:flex-row md:items-center md:space-x-8 lg:space-x-16 xl:space-x-18 space-y-8 space-y-reverse md:space-y-0">
+            {/* Content */}
+            <div className="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
+              <div className="text-center md:text-left">
+                <h3 className="h3 font-uncut-sans text-4xl mb-4">Designed for Miners, Engineered for Excellence</h3>
+                <p className="text-xl text-gray-400 mb-6">Cutting-edge tools and unique benefits to help miners maximize their earnings and efficiency.</p>
+                <ul className="inline-flex flex-col text-lg text-gray-400 space-y-3">
+                  <li className="flex items-center">
+                    <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>Advanced Pool Dashboard</span>
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>Twice-daily Reward Payouts</span>
+                  </li>
+                  <li className="flex items-center">
+                    <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                    </svg>
+                    <span>Earn $NACHO While Mining</span>
+                  </li>
+                </ul>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
             </div>
-            {/* 3rd item */}
-            <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
-              <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-                  <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon3-b">
-                      <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
-                    </radialGradient>
-                    <circle id="icon3-a" cx="28" cy="28" r="28" />
-                  </defs>
-                  <g fill="none" fillRule="evenodd">
-                    <use fill="url(#icon3-b)" xlinkHref="#icon3-a" />
-                    <g stroke="#FDF2F8" strokeLinecap="square" strokeWidth="2">
-                      <path d="m18 31 4 4 12-15" />
-                      <path d="M39 25h-3M39 30h-7M39 35H28" opacity=".64" />
-                    </g>
-                  </g>
-                </svg>
-              </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+            {/* Image */}
+            <div className="md:w-5/12 lg:w-1/2" data-aos="zoom-out">
+              <Image className="mx-auto md:max-w-none" src={FeaturesImage} width={540} height={581} alt="Features" />
             </div>
           </div>
         </div>
