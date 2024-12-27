@@ -25,8 +25,8 @@ export default function Features02() {
             {/* Content */}
             <div className="md:w-7/12 lg:w-1/2 order-1 md:order-none" data-aos="zoom-out" data-aos-delay="200">
               <div className="text-center md:text-left">
-                <h3 className="h3 font-uncut-sans text-4xl mb-4">Next-Generation Mining Infrastructure</h3>
-                <p className="text-xl text-gray-400 mb-6">Powered by cutting-edge technology and innovative tokenomics to maximize both efficiency and earnings.</p>
+                <h3 className="h3 font-uncut-sans text-4xl mb-4">Advanced Mining Pool Architecture</h3>
+                <p className="text-xl text-gray-400 mb-6">Engineered with sub-second share processing, variable difficulty, and globally distributed nodes to deliver the highest possible mining returns.</p>
                 <ul className="inline-flex flex-col text-lg text-gray-400 space-y-3">
                   <li className="flex items-center">
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -38,19 +38,19 @@ export default function Features02() {
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Optimized Reward Distribution with 12-Hour Cycles</span>
+                    <span>Optimized PPLNS Rewards with 12-Hour Cycles</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Dual-Mining Rewards with $NACHO Token Integration</span>
+                    <span>Dual Rewards with $NACHO Buyback Rebates</span>
                   </li>
                   <li className="flex items-center">
                     <svg className="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
-                    <span>Enterprise-Grade Security and Reliability</span>
+                    <span>Censorship-Resistant, Private, Secure</span>
                   </li>
                 </ul>
               </div>
