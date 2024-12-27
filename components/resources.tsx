@@ -107,7 +107,7 @@ export default function Resources() {
               {category && (
                 <a
                   className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!['1'].includes(category) && 'hidden'}`}
-                  href="#0"
+                  href="https://docs.katpool.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -124,7 +124,7 @@ export default function Resources() {
               {category && (
                 <a
                   className={`block relative before:content-[''] before:bg-gray-800 before:absolute before:-z-10 before:inset-0 p-6 group ${!['1'].includes(category) && 'hidden'}`}
-                  href="#0"
+                  href="https://ticket.katpool.xyz"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -133,7 +133,7 @@ export default function Resources() {
                       <path d="M21.083 0H.917C.41 0 0 .448 0 1v16c0 .552.41 1 .917 1h20.166c.507 0 .917-.448.917-1V1c0-.552-.41-1-.917-1ZM9 13V5l6 4-6 4Z" fillRule="nonzero" />
                     </svg>
                   </div>
-                  <div className="font-uncut-sans text-xl text-gray-100 font-semibold">Tutorials</div>
+                  <div className="font-uncut-sans text-xl text-gray-100 font-semibold">Submit Ticket</div>
                 </a>
               )}
             </div>
