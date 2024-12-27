@@ -22,7 +22,7 @@ export default function Footer() {
             <h6 className="text-xs text-gray-200 font-semibold uppercase mb-2"></h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-gray-400 hover:text-customSecondary transition duration-150 ease-in-out" href="#0">Get Connected</a>
+                <a className="text-gray-400 hover:text-customSecondary transition duration-150 ease-in-out" href="https://app.katpool.xyz">Get Connected</a>
               </li>
             </ul>
           </div>
@@ -31,7 +31,7 @@ export default function Footer() {
             <h6 className="text-xs text-gray-200 font-semibold uppercase mb-2"></h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-gray-400 hover:text-customSecondary transition duration-150 ease-in-out" href="#0">Terms of Use</a>
+                <a className="text-gray-400 hover:text-customSecondary transition duration-150 ease-in-out" href="https://docs.katpool.xyz">Terms of Use</a>
               </li>
             </ul>
           </div>
@@ -40,7 +40,7 @@ export default function Footer() {
             <h6 className="text-xs text-gray-200 font-semibold uppercase mb-2"></h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-gray-400 hover:text-customSecondary transition duration-150 ease-in-out" href="#0">Privacy Policy</a>
+                <a className="text-gray-400 hover:text-customSecondary transition duration-150 ease-in-out" href="https://docs.katpool.xyz">Privacy Policy</a>
               </li>
             </ul>
           </div>
