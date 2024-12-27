@@ -46,7 +46,7 @@ export default function Hero() {
               data-aos-delay="300"
             >
               <div>
-                <a className="btn text-white bg-gradient-to-t from-customPrimary to-customPrimary hover:to-customSecondary w-full shadow-lg group" href="#0">
+                <a className="btn text-white bg-gradient-to-t from-customPrimary to-customPrimary hover:to-customSecondary w-full shadow-lg group" href="https://app.katpool.xyz">
                   Start Mining Now{' '}
                   <span className="tracking-normal text-blue-200 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
@@ -54,7 +54,7 @@ export default function Hero() {
                 </a>
               </div>
               <div>
-                <a className="btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg" href="#0">
+                <a className="btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg" href="https://docs.katpool.xyz">
                   Explore Docs
                 </a>
               </div>
