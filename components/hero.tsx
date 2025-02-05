@@ -24,7 +24,7 @@ export default function Hero() {
                   Kat Pool is open source.{' '}
                   <a
                     className="font-medium text-customPrimary inline-flex items-center transition duration-150 ease-in-out group"
-                    href="https://github.com/Nacho-the-Kat/katpool-payment"
+                    href="https://github.com/Nacho-the-Kat/katpool-app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
