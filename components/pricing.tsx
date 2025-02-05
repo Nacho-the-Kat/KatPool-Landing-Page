@@ -126,8 +126,8 @@ export default function Pricing() {
                   <span className="text-4xl font-bold leading-7">0.25%</span>
                   <span className="font-medium text-gray-400">‎ ‎ pool fee</span>
                 </div>
-                <div className="text-gray-400 mb-6">Wallets holding a qualifying Nacho NFT.</div>
-                <a className="btn-sm text-white bg-gradient-to-t from-customPrimary to-customPrimary hover:to-customSecondary w-full shadow-lg group" href="#0" target="_blank" rel="noopener noreferrer">
+                <div className="text-gray-400 mb-6">Wallets holding a Nacho Kats NFT.</div>
+                <a className="btn-sm text-white bg-gradient-to-t from-customPrimary to-customPrimary hover:to-customSecondary w-full shadow-lg group" href="https://www.kaspa.com/nft/collections/NACHO" target="_blank" rel="noopener noreferrer">
                   Check out the Collection{' '}
                   <span className="tracking-normal text-customSecondary group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
